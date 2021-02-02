@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id = "new-movie-form">
+        <label for="movie-title">Movie Title:</label>
+        <input class="inputClass" type="text" name="movie-title" id="movie-title"><br>
+        <label for="movie-rating">Movie Rating:</label>
+        <select class="inputClass" name="movie-rating" id="movie-rating">
+            <option value="10">10 stars</option>
+            <option value="9">9 stars</option>
+            <option value="8">8 stars</option>
+            <option value="7">7 stars</option>
+            <option value="6">6 stars</option>
+            <option value="5">5 stars</option>
+            <option value="4">4 stars</option>
+            <option value="3">3 stars</option>
+            <option value="2">2 stars</option>
+            <option value="1">1 star</option>
+            <option value="0">0 star</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <button id="sort-by-title">Sort By Title</button>
+    <button id="sort-by-rating">Sort By Rating</button>
+    <button id="sort-by-highest-title">Sort By Title Descending</button>
+    <button id="sort-by-highest-rating">Sort By Rating Descending</button>
+    <ol></ol>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="jQuery-MoviesApp.js"></script>  
+</body>
+</html>
