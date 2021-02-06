@@ -1,0 +1,22 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+table {
+  table-layout:fixed;
+  width: inherit !important;
+}
+td {
+  width:150px !important;
+  height:150px !important;
+  max-width:300px !important;
+  max-height:300px !important;
+  min-width:300px !important;
+  min-height:300px !important;
+  font-size: 13px !important;
+}
+
